@@ -28,7 +28,7 @@ a{
 /* Header */
 
 header{
-    z-index: 1;
+    z-index: 1000;
     position: fixed;
     width: 100%;
     background-color: #000;
@@ -39,6 +39,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .logo{
@@ -163,7 +164,6 @@ video{
 }
 
 .cenovnik{
-    height:20px;
     width: 30%;
     background-color: #21AE50;
     margin: 20px auto;
@@ -173,16 +173,12 @@ video{
     justify-content: center;
     border-radius: 15px;
 }
-.cenovnik a{
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-}
+
 
 /* Sekcija 2 */
 
 .section2{
-    height: 250px;
+    height: 300px;
     width: 100%;
     background-color: #0083CB;
 }
@@ -210,6 +206,9 @@ video{
     width: 60%;
     margin: 0px auto;
     font-size: 20px;
+    font-size:22px;
+    text-align:left;
+    line-height:33px;
 }
 
 .vezbac{
@@ -237,9 +236,33 @@ video{
     color: white;
 }
 
+.nsf h3{
+    font-weight:700px;
+    font-size: 48px;
+    border-bottom: 7px solid white;
+    width: 30%;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.nsf p{
+    font-weight:400;
+    font-style:normal;
+    font-size:22px;
+    text-align:left;
+    line-height:33px;
+}
+
+.stores{
+    margin-top: 70px;
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .store{
-    width: 100%;
-    height: 100%;
+    height: 50px;
+    width: 150px;
     background-repeat: no-repeat;
 }
 .play{
@@ -377,4 +400,44 @@ span{
     margin: 0px auto;
     width: 20%;
     margin-top: 70px;
+}
+
+.aplikacija{
+    width: 60%;
+    margin: 70px auto;
+}
+.gornji{
+        display: flex;
+        justify-content: space-evenly;
+}
+
+.aplikacijaLogo{
+    width: 30%;
+    height: 150px;
+    background-image: url("../img/logoi/aplikacija.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.appText{
+    width: 70%;
+    text-align: left;
+}
+
+.appText h5{
+    color: #0083C9;
+    font-size:24px;
+    margin-bottom: 20px;
+}
+.appText p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.appText span{
+    text-transform: initial;
+}
+.donji{
+    /* border: 4px solid black; */
+    width: 100%;
+    margin: 80px auto;
 }
