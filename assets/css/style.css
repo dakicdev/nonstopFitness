@@ -219,3 +219,162 @@ video{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+/* Sekcija 3 */
+.section3{
+    margin-top: 150px;
+    background-image: url("../img/nsf.jpg");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nsf{
+    width: 60%;
+    height: 70%;
+    color: white;
+}
+
+.store{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.play{
+    background-image: url("../img/google-play-badge-EN-1.png");
+}
+.apple{
+    background-image: url("../img/app-store-badge-EN.png");
+}
+.huawei{
+    background-image: url("../img/20200220_AppGallery_Badge_Black-1.png");
+}
+
+/* Sekcija 4 */
+
+.section4{
+    width: 100%;
+    background-color: #373E47;
+    color: white;
+}
+
+.sekcije{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 30px;
+    padding: 20px;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.komb{
+    height: 100%;
+    width: 45%;
+}
+
+.komb>h3{
+    font-size: 48px;
+    padding: 0 15px 15px 0px;
+}
+.komb>p{
+    font-size: 24px;
+}
+
+.slicica{
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    }
+.slicica1{
+    background-image: url("../img/lokacije/NSF-lokacije-Aviv-Park.jpg");
+}
+.slicica2{
+    background-image: url("../img/lokacije/grupni.jpg");
+}
+.slicica3{
+    background-image: url("../img/lokacije/personalni.jpg");
+}
+.slicica4{
+    background-image: url("../img/lokacije/zenskazona.jpg");
+}
+
+
+
+.okvir{
+    border-top: 7px solid white;
+    margin-bottom: 40px;
+}
+
+#ok1{
+    width: 30%;
+}
+#ok2{
+    width: 55%;
+}
+#ok3{
+    width: 65%;
+}
+#ok4{
+    width: 45%;
+}
+
+.logic{
+    height: 25%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+#logo1{
+    background-image: url("../img/logoi/logolokacije.png");
+}
+#logo2{
+    background-image: url("../img/logoi/logogrupni.png");
+}
+#logo3{
+    background-image: url("../img/logoi/logopersonalni.png");
+}
+#logo4{
+    background-image: url("../img/logoi/logozenska.png");
+}
+
+.dugme{
+    border: 2px solid green;
+    width: 34%;
+    text-align: center;
+    background-color: #41CD70;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.dugme:hover{
+    background-color: #21AE50;
+}
+
+
+span{
+    text-transform: uppercase;
+}
+
+/* Sekcija 5 */
+.section5{
+    margin-top: -30px;
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+.covid{
+    margin: 0px auto;
+    text-align: center;
+}
+.covid h4{
+    font-size: 24px;
+    font-weight: 100px;
+}
+.dugmecovid{
+    margin: 0px auto;
+    width: 20%;
+    margin-top: 70px;
+}
