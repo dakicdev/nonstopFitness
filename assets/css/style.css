@@ -441,3 +441,101 @@ span{
     width: 100%;
     margin: 80px auto;
 }
+
+/* Sekcija 6 */
+.section6{
+    height: 450px;
+    background-color: #262626;
+    color: white;
+}
+.sekcijaKartice{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.sekcijaKartice h6{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+}
+.kartice{
+    width: 33%;
+    margin-right: 40px;
+}
+.iconList{
+    display: flex;
+    padding: 10px;
+}
+i{
+    color: #0083C9;
+}
+.iconList > *{
+    margin: 5px;
+}
+.iconList a{
+    color: white;
+}
+
+
+.spanText{
+    color: #0083C9;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.kartice > span{
+    color:#0083C9;
+}
+
+/* Footer */
+
+footer{
+    height: 90px;
+    background-color: #1B1B1B;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+.bottom{
+    width: 33%;
+    text-align: center;
+}
+
+.bottomCards{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin: 10px;
+    width: 60px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card1{
+    background-image: url("../img/cards/maestro.png");
+}
+.card2{
+    background-image: url("../img/cards/master-card.png");
+}
+.card3{
+    background-image: url("../img/cards/visa.png");
+}
+.card4{
+    background-image: url("../img/cards/dina-card.jpg");
+}
