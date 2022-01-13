@@ -539,3 +539,110 @@ footer{
 .card4{
     background-image: url("../img/cards/dina-card.jpg");
 }
+
+
+
+/* LOKACIJE */
+.lok{
+    height: 30%;
+}
+
+.lokacije{
+    padding-top: 70px;
+    background-image: url("../img/Non-stop-fitness-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    display: flex;
+    align-items: flex-end;
+}
+.lok>h3, .lok p{
+    color: black;
+    border-color: black;
+}
+/* Galerija */
+.galerija{
+    height: 1500px;
+    background-color: #373E47;
+    padding-top: 50px;
+}
+.mesta{
+    display: flex;
+    width: 60%;
+    color: white;
+}
+
+.mesto{
+    width: 100%;
+    /* border: 3px solid gold; */
+    margin: 5px;
+}
+.mestaGore{
+    width: 100%;
+}
+.mestaDole{
+    width: 100%;
+}
+
+.mesto h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+
+.galerijaSlika1{
+    height: 350px;
+    background-image: url("../img/lokacije/NSF-lokacije-Autokomanda-pgrzsh1my7wdlvqrhu16vi38t1kv0kzq4q5bexuh2k.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Cenovnik */
+
+.cen{
+    background: url("../img/cenovnik-header-picture-1920.jpg");
+    height: 380px;
+    background-repeat: no-repeat;
+}
+
+.ceno{
+    color: black;
+}
+.ceno h3{
+    color: black;
+    border-color: black;
+}
+
+/* loyalty levels */
+
+.loyaltyLevels{
+    margin-top: 80px;
+    height: 1200px;
+    background-color: #4A4A4A;
+}
+.ll{
+    width: 90%;
+}
+.ll>h3, .ll{
+    color: white;
+    border-color: white;
+}
+.mark{
+    display: flex;
+}
+.munja{
+    width: 10%;
+    height: 200px;
+    background: url("../img/grom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.yt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
