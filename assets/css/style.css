@@ -597,7 +597,36 @@ footer{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    margin: 20px;
 }
+
+.galerijaSlika2{
+    height: 350px;
+    background-image: url("../img/lokacije/NSF-lokacije-Dimitrijala-pgrzrtjo7d07jmowb1vin60pyesoo5efphu6f0tbe4.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.galerijaSlika3{
+    height: 350px;
+    background-image: url("../img/lokacije/NSF-lokacije-Big-Fashion-Park-pgrzrz6pcd7xhagpe4ba24lhiq0vyc0tq9r3aokycs.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.galerijaSlika4{
+    height: 350px;
+    background-image: url("../img/lokacije/NSF-lokacije-Aviv-Park.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+
+
 
 /* Cenovnik */
 
@@ -728,4 +757,121 @@ footer{
 .blog-text a:hover{
     color: #0083C9;
     transition: all ease 0.3s;
+}
+
+/* Usluge - Grupni */
+.headcen{
+    position: sticky;
+}
+
+.grupnitr{
+    padding: 80px;
+    background: url("../img/blog/blog4.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gr{
+    width: 100%;
+}
+.gr h3, .gr p{
+    color: white;
+    border-color: white;
+}
+.icongr{
+    display: flex;
+    justify-content: flex-start;
+}
+.a{
+    width: 100%;
+}
+
+.k1{
+    height: 100%;
+}
+
+.k2 i{
+    color: #F8A01A;
+}
+.k3 i{
+    color: #E84390;
+}
+
+/* Tabela */
+.tabela{
+    margin-top: 40px;
+    height: 500px;
+    background-color: #6AC7FF;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.mytimetable {
+    width:100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.mytimetable thead{
+    color: #ffffff;
+}
+
+.mytimetable tbody {
+    background-color: #aaaaff;
+}
+
+.mytimetable td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+.mytimetable tbody tr td:first-child {
+    background-color: #ff0066;
+    font-weight: bold;
+}
+
+.break, .lunch {
+    background-color: #ff0066 !important;
+    font-style: italic;
+}
+
+.subject {
+    font-size: 12pt;
+    margin-bottom:4px;
+}
+
+.room {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+/* personalni */
+
+.personalni{
+    margin-top: -50px;
+    background-color: #F6F6F6;
+    padding: 90px;
+}
+
+.iconusluge{
+    justify-content: center;
+}
+.pt{
+    text-align: center;
+    font-size: 48px;
+    padding: 40px;
+    background-color: #F6F6F6;
+    color: #0083C9;;
+}
+.gpt{
+    background-color: white;
+}
+
+.iconpers{
+    justify-content: space-around;
 }
