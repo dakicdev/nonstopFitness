@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="headerForma">
         <div class="container header">
             <a href="index.html" class="logo">
                 <div class="logo">
@@ -31,5 +31,260 @@
             </div>
         </div>
     </header>
+
+    <section class="sekcijaForma">
+        <div class="container">
+            <!-- Interni css za kontakt formu -->
+        <style>
+            body, div, form, input, select, p { 
+                padding: 0;
+                margin: 0;
+                outline: none;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #666;
+                line-height: 22px;
+            }
+
+            h1 {
+                position: absolute;
+                margin: 0;
+                font-size: 36px;
+                color: #fff;
+                z-index: 2;
+            }
+
+
+            span.required {
+                color: red;
+            }
+
+
+            .testbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: inherit;
+                padding: 20px;
+            }
+            form {
+                width: 100%;
+                padding: 20px;
+                border-radius: 6px;
+                background: #fff;
+                box-shadow: 0 0 30px 0 #4286f4; 
+            }
+
+            .banner {
+                position: relative;
+                height: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            .banner::after {
+                content: "";
+                background-color: #4286f4; 
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            
+            p.top-info {
+                margin: 10px 0;
+            }
+
+            input, select {
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
+
+            input {
+                width: calc(100% - 10px);
+                padding: 5px;
+            }
+            select {
+                width: 100%;
+                padding: 7px 0;
+                background: transparent;
+            }
+
+
+            .item input:hover, .item select:hover {
+            border: 1px solid transparent;
+            box-shadow: 0 0 5px 0 #4286f4;
+            color: #4286f4;
+            }
+
+
+            .item {
+                position: relative;
+                margin: 10px 0;
+            }
+
+
+            .question input {
+                width: auto;
+                margin: 0;
+                border-radius: 50%;
+            }
+
+            .question input, .question span {
+                vertical-align: middle;
+            }
+
+
+            .question label {
+                display: inline-block;
+                margin: 5px 20px 15px 0;
+            }
+            .btn-block {
+                margin-top: 10px;
+                text-align: center;
+            }
+            button {
+                width: 150px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px; 
+                background: #4286f4;
+                font-size: 16px;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background: #0666a3;
+            }
+        </style>
+
+    <div class="testbox">
+    <form action="/">
+        <div class="banner">
+        <h1>Forma za pristup teretani</h1>
+        </div>
+            <p class="top-info">Želiš li da postaneš naš član? Započni tako što ćeš popuniti registracionu formu.</p>
+        <div class="item">
+            <p>Ime<span class="required">*</span></p>
+        <div class="name-item">
+            <input type="text" name="name" placeholder="Upisi ime" required/>
+            <input type="text" name="name" placeholder="Upisi prezime" required/>
+        </div>
+        </div>
+        <div class="question">
+            <p>Pol<span class="required">*</span></p>
+
+        <div class="question-answer">
+            <label><input type="radio" value="none" name="gender" required/> <span>Muški</span></label>
+            <label><input type="radio" value="none" name="gender" required/> <span>Ženski</span></label>
+        </div>
+        </div>
+        <div class="item">
+            <p>Tvoja trenutna težina (kg)<span class="required">*</span></p>
+            <input type="text" name="name"/>
+        </div>
+        <div class="item">
+            <p>Željena težina (kg)<span class="required">*</span></p>
+            <input type="text" name="name" required/>
+        </div>
+        <div class="item">
+            <p>Visina<span class="required">*</span></p>
+            <input type="text" name="name" required/>
+        </div>
+        <div class="item">
+            <p>BMI<span class="required">*</span></p>
+            <input type="text" name="name" required/>
+        </div>
+        <div class="item">
+            <p>Adresa<span class="required">*</span></p>
+            <input type="text" name="name" placeholder="Upisi adresu" required/>
+        <div class="city-item">
+            <input type="text" name="name" placeholder="Grad" required/>
+            <input type="text" name="name" placeholder="Okrug" required/>
+            <input type="text" name="name" placeholder="Postanski broj" required/>
+            <select>
+                <option value="">Lokacija teretane u koju zelis da ides</option>
+                <option value="1">Autokomanda</option>
+                <option value="2">Novi Sad</option>
+                <option value="3">Zemun</option>
+                <option value="4">Aviv park</option>
+            </select>
+        </div>
+        </div>
+
+        <div class="item">
+            <p>Email<span class="required">*</span></p>
+            <input type="text" name="name" required/>
+        </div>
+        <div class="item">
+            <p>Broj telefona</p>
+            <input type="text" name="name"/>
+        </div>
+        <div class="question">
+            <p>Da li ti je potreban personalni trener?<span class="required">*</span></p>
+        <div class="question-answer">
+            <label><input type="radio" value="none" name="personal-trainer" required/> <span>Da</span></label>
+            <label><input type="radio" value="none" name="personal-trainer" required/> <span>Ne</span></label>
+        </div>
+        </div>
+        <div class="question">
+            <p>Da li si bio ikad ranije u teretani?<span class="required">*</span></p>
+        <div class="question-answer">
+            <label><input type="radio" value="none" name="gym-before" required/> <span>Da</span></label>
+            <label><input type="radio" value="none" name="gym-before" required/> <span>Ne</span></label>
+        </div>
+        </div>
+        <div class="btn-block">
+        <button type="submit" href="/">Prijavi se</button>
+        </div>
+    </form>
+    </div>
+        </div>
+    </section>
+        <div class="container covid">
+
+            <!-- Aplikacija -->
+            <div class="aplikacija">
+                <div class="gornji">
+                    <div class="aplikacijaLogo"></div>
+                    <div class="appText">
+                        <h5>Preuzmite aplikaciju</h5>
+                        <p>Preuzmite našu aplikaciju za članove i sve potrebne informacije ćete imati u svom telefonu.</p>
+                        <span>
+                            Budite u kontaktu sa svojim klubom, proveravajte nalog i rezervišite trenige u pokretu.</span>
+                    </div>
+                </div>
+                <div class="donji stores">
+                    <a href="https://play.google.com/store/apps/details?id=rs.nonstopfitness&hl=en">
+                        <div class="store play"></div>
+                    </a>
+                    <a href="https://apps.apple.com/us/app/non-stop-fitness/id1485382464">
+                        <div class="store apple"></div>
+                    </a>
+                    <a href="https://appgallery.huawei.com/#/app/C101309549">
+                        <div class="store huawei"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+    <footer>
+        <div class="container footer">
+            <div class="bottom"></div>
+            <div class="bottom">
+                <p>&copy; 2021 All rights reserved by Dušan Dakić 64/18</p>
+            </div>
+            <div class="bottom bottomCards">
+                <div class="cards card1"></div>
+                <div class="cards card2"></div>
+                <div class="cards card3"></div>
+                <div class="cards card4"></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
